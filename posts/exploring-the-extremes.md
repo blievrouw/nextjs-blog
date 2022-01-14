@@ -3,8 +3,6 @@ title: 'Exploring the extremes'
 date: '2022-01-14'
 ---
 
-# Exploring the extremes
-
 The exploration of extremes is one of the standard tools of the physicist. It exposes them to what lies beyond our intuitions; conditions not previously observed. Newton's assumption of instantaneous propagation of gravitational fields worked just fine in daily life, but it broke near massive objects. We can't go back to the moments of the early universe, but we can mimick its conditions by building a 27km long tunnel under Switzerland.
 
 **Reductio ad absurdum**
