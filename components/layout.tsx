@@ -6,9 +6,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import React from 'react'
 
-
-export const siteTitle = 'Next.js Sample Website'
 const name = 'BlueRivetRow'
+export const siteTitle = `Blog — ${name}`
 
 export default function Layout({ children, home }: { children: React.ReactNode, home?: boolean }) {
   const profileImg = (
