@@ -1,15 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'BlueRivetRow'
+import styles from './layout.module.css'
+import utilStyles from '../styles/utils.module.css'
+import React from 'react'
+
 
 export const siteTitle = 'Next.js Sample Website'
+const name = 'BlueRivetRow'
 
-
-export default function Layout({ children, home }) {
+export default function Layout({ children, home }: { children: React.ReactNode, home?: boolean }) {
   const profileImg = (
     <Image
       priority
