@@ -6,9 +6,9 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 
 export default function Post({ postData }: {
   postData: {
-    title: string,
-    date: string,
-    contentHtml: string,
+    title: string
+    date: string
+    contentHtml: string
   }
 }) {
   return (

@@ -9,7 +9,7 @@ import React from 'react'
 const name = 'BlueRivetRow'
 export const siteTitle = `Blog — ${name}`
 
-export default function Layout({ children, home }: { children: React.ReactNode, home?: boolean }) {
+export default function Layout({ children, home }: { children: React.ReactNode; home?: boolean }) {
   const profileImg = (
     <Image
       priority
